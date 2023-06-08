@@ -1,0 +1,26 @@
+/* define the map size on the page */
+#map {
+    height: 600px;
+    background-color: #deedfc;
+}
+
+#map::before{
+    content: 'LOADING';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
+
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+
+#submit {
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: rgb(149, 166, 219);
+}
